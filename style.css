@@ -1,0 +1,75 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url(pastelcolors.png);
+  background-size: contain;
+}
+
+h1,h3 {
+  font-family: 'Permanent Marker', cursive;
+  color: #5b5669;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Permanent Marker', cursive;
+  color: #5b5669;
+}
+
+li{
+  border: 5px solid white;
+  padding: 6px;
+  background: white;
+  border-radius: 7px;
+}
+
+#leather{
+  width: 30%;
+  margin-left: 35%;
+}
+
+#shirtjeans{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: -40%;
+}
+
+#plaidskirt{
+  width: 30%;
+  margin-left: -30%;
+  margin-top: -40%;
+}
+
+#cardigan{
+  width: 30%;
+  margin-left: -30%;
+  margin-top: -40%;
+}
+
+#blacktank, #plaidjacket, #brownjacket {
+  width: 30%;
+  margin-left: -30%;
+  margin-top: -40%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
